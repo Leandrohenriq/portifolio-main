@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', 'Courier New', Courier, monospace;
+    font-weight: 700;
+    color: white;
+}
+
+
+body{
+    height: 200vh;
+}
+
+
+/*Menu-superior*/
+#menu-superior{
+    width: 100%;
+    height: 85px;
+    background-color: #131313f3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 5px solid blueviolet;
+}
+
+#menu-superior .texto-menu-superior{
+    margin-left: 40px;
+}
+
+#menu-superior .texto-menu-superior h1{
+    color: blueviolet;
+}
+
+#menu-superior .menu-links{
+    margin: 0 40px;
+}
+
+#menu-superior a{
+    padding: 0 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    transition: 0.4s;
+}
+
+#menu-superior .menu-links a:hover{
+    color: blueviolet;
+    transition: 0.4s;
+}
+
+
+/*Sobre 1*/
+.sobre1{
+    width: 100%;
+    background-color: #131313f3;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-bottom: 3px solid blueviolet;
+}
+
+.texto-sobre{
+    margin-left: 100px;
+}
+
+.sobre1 h1{
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: blueviolet;
+}
+
+.sobre1 h3{
+    font-size: 2em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.sobre1 p{
+    color: white;
+    font-size: 1.2em;
+}
+
+
+/*Sobre 2*/
+.sobre2{
+    width: 100%;
+    height: 30vh;
+    background-color: #131313f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 3px solid blueviolet;
+}
+
+.sobre2 p{
+    font-size: 1.5em;
+    color: white;
+}
+
+
+
+
+
+/*Habilidades*/
+#habilidades{
+    width: 100%;
+    height: 600px; 
+    background-color: #131313f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#habilidades .itens-habilidades{
+    width: 1000px;
+    height: 600px;
+}
+
+#habilidades .itens-habilidades h1{
+    color: blueviolet;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 2.3em;
+    margin-bottom: 120px;
+}
+
+#habilidades .itens-habilidades .imagens-prog{
+    display: flex;
+    justify-content: space-around;
+}
+
+#habilidades .itens-habilidades .imagens-prog img{
+    width: 150px;
+    height: 150px;
+}
+
+#habilidades .itens-habilidades .imagens-prog img:hover{
+}
+
+#habilidades .itens-habilidades .imagens-prog .imagem-individual{
+    width: 230px;
+    height: 330px;
+    border: 2px solid rgba(255, 255, 255, 0.726);
+    border-radius: 4px;
+    background-color: #3a3a3a8c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
