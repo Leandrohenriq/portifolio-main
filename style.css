@@ -7,6 +7,12 @@
     color: white;
 }
 
+
+body{
+    height: 200vh;
+}
+
+
 /*Menu-superior*/
 #menu-superior{
     width: 100%;
@@ -15,7 +21,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid blueviolet;
+    border-bottom: 5px solid blueviolet;
 }
 
 #menu-superior .texto-menu-superior{
@@ -59,7 +65,11 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    border-bottom: 1px solid blueviolet;
+    border-bottom: 3px solid blueviolet;
+}
+
+.texto-sobre{
+    margin-left: 100px;
 }
 
 .sobre1 h1{
