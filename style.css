@@ -83,6 +83,7 @@ body{
 .sobre1 p{
     color: white;
     font-size: 1.2em;
+    margin: 0 50px;
 }
 
 
@@ -189,6 +190,8 @@ body{
     border: 2px solid blueviolet;
     border-radius: 4px;
     margin-bottom: 65px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 #projetos .area-projetos .projetos-tela .rodape-projeto{
@@ -200,6 +203,7 @@ body{
     text-decoration: none;
     font-size: 1.2em;
     transition: 0.4s;
+    text-decoration: underline;
 }
 
 #projetos .area-projetos .projetos-tela .rodape-projeto a:hover{
@@ -285,6 +289,12 @@ body{
     #menu-superior .menu-links a{
         padding: 15px;
     }
+
+
+    /*rodape*/
+    #contato .textos-contatos .leandro{
+        padding: 0 35px;
+    }
 }
 
 
@@ -331,7 +341,7 @@ body{
     /*Footer*/
     #contato{
         display: flex;
-        height: 350px;
+        height: 380px;
         align-items: center;
         justify-content: center;
         text-align: center;        
@@ -351,6 +361,16 @@ body{
         justify-content: center;
     }   
 
+    #projetos .area-projetos .projetos-tela .rodape-projeto h3{
+        font-size: 1.2em;
+    }
+
+    #projetos .area-projetos .projetos-tela .rodape-projeto a{
+        font-size: 1em;
+    }
+
+
+
     /*Sobre 1*/
     #sobre .sobre1 .texto-sobre h1{
         font-size: 2em;
@@ -365,6 +385,11 @@ body{
     }
 
     /*Sobre 2*/
+
+    .sobre2{
+        height: 300px;
+    }
+
     .sobre2 p{
         font-size: 1em;
     }
